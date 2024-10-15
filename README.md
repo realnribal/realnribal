@@ -1,5 +1,10 @@
-## Hi there 👋
+## Hi there 👋, I'm Henri 
+* Welcome to my GitHub space! I'm a passionate technologist with a knack for turning data into insights and ideas into reality.
+* 🔍 I'm constantly exploring new technologies and methodologies, driven by curiosity and a desire to push the boundaries of what's possible.
+* 🤝 I believe in the power of collaboration and open-source contribution to drive progress in our field.
 
+I'm always excited to connect with fellow tech enthusiasts, so feel free to reach out for discussions on data science, innovative projects, or the latest tech trends!
+Let's create something amazing together! 
 <!--
 **realnribal/realnribal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +19,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# Portfolio Contents
+
+1. [Data Science](https://github.com/realnribal/DataScience)
