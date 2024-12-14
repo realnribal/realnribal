@@ -23,4 +23,49 @@ Here are some ideas to get you started:
 
 # Portfolio Contents
 
-1. [Data Science](https://github.com/realnribal/DataScience)
+## 📚 Featured Projects
+
+#### 🤖 [AI Projects](https://github.com/realnribal/AI-Projects)
+- [Project 1](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production) : Analysis of Honey Production in the USA (1998-2012)
+  - Predict honey production in the USA for upcoming years.
+
+## 🛠 Technical Skills
+
+### 🤖 AI & Machine Learning
+- **Frameworks**: Scikit-learn 
+
+### 📊 Big Data
+- **Processing**: Apache Spark, Hadoop
+
+
+### 🐧 Linux
+- **Distributions**: Ubuntu, Gentoo
+- **Shell Scripting**: Bash, Python scripting
+- **System Administration**: SystemD, Network Configuration
+- **Virtualization**: VirtualBox
+
+### 🔒 Cybersecurity
+- **Network Security**: Wireshark
+
+### 🌐 Networks
+- **Protocols**: TCP/IP, DNS, DHCP, HTTP/S
+- **Network Automation**: Ansible
+
+### ⚙️ DevOps
+- **Containerization**: Docker, Podman
+- **CI/CD**: Jenkins , 
+
+#### 💻 Programming Languages
+- **Primary**: Python, Java, Go
+- **Scripting**: Bash, PowerShell
+- **Database**: SQL
+- **Infrastructure**: YAML, JSON
+
+#### 🛠 Development Tools
+- **Version Control**: Git, GitHub, GitLab
+- **IDE/Editors**: VSCode, PyCharm, Vim
+- **Documentation**: Markdown, Sphinx
+
+
+### 📈 GitHub Stats
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=realnribal&show_icons=true&theme=radical&hide=stars,prs,issues,contribs)
