@@ -29,6 +29,10 @@ Here are some ideas to get you started:
 - [Project 1](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production) : Analysis of Honey Production in the USA (1998-2012)
   - Predict honey production in the USA for upcoming years.
 
+#### 🤖 [Big Data Projects](https://github.com/realnribal/AI-Projects)
+- [Project 1](https://github.com/realnribal/Analyze-Common-Crawl-Data) : This project focuses on analyzing the domain graph dataset from Common Crawl,
+
+
 ## 🛠 Technical Skills
 
 ### 🤖 AI & Machine Learning
