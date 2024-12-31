@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 
 #### 🤖 [Big Data Projects](https://github.com/realnribal/AI-Projects)
 - [Project 1](https://github.com/realnribal/Analyze-Common-Crawl-Data) : This project focuses on analyzing the domain graph dataset from Common Crawl,
-
+- [Project 2](https://github.com/realnribal/spark-connected-components-finder) : This project implements the Connected Components Finder (CCF) algorithm using Apache Spark
 
 ## 🛠 Technical Skills
 
@@ -40,7 +40,7 @@ Here are some ideas to get you started:
 
 ### 📊 Big Data
 - **Processing**: Apache Spark, Hadoop
-
+- **Cloud Platforms**: Google Cloud Platform (Dataproc), Databricks
 
 ### 🐧 Linux
 - **Distributions**: Ubuntu, Gentoo
