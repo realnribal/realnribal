@@ -26,8 +26,12 @@ Here are some ideas to get you started:
 ## 📚 Featured Projects
 
 #### 🤖 [AI Projects](https://github.com/realnribal/AI-Projects)
-- [Project 1](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production) : Analysis of Honey Production in the USA (1998-2012)
+- [Analysis of Honey Production in the USA (1998-2012)](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production)  
   - Predict honey production in the USA for upcoming years.
+
+#### 🤖 Data Analysis
+- [Electric Vehicle Station Analysis](https://github.com/realnribal/electric-vehicle-station-analysis)
+  - This project analyzes electric vehicle charging stations using Python and pandas..
 
 #### 🤖 [Big Data Projects](https://github.com/realnribal/AI-Projects)
 - [Project 1](https://github.com/realnribal/Analyze-Common-Crawl-Data) : This project focuses on analyzing the domain graph dataset from Common Crawl,
