@@ -34,8 +34,10 @@ Here are some ideas to get you started:
   - This project analyzes electric vehicle charging stations using Python and pandas..
 
 #### 🤖 [Big Data Projects](https://github.com/realnribal/AI-Projects)
-- [Project 1](https://github.com/realnribal/Analyze-Common-Crawl-Data) : This project focuses on analyzing the domain graph dataset from Common Crawl,
-- [Project 2](https://github.com/realnribal/spark-connected-components-finder) : This project implements the Connected Components Finder (CCF) algorithm using Apache Spark
+- [Common Crawl Domain Analysis](https://github.com/realnribal/Analyze-Common-Crawl-Data) 
+  - This project focuses on analyzing the domain graph dataset from Common Crawl
+- [Spark Connected Components Finder](https://github.com/realnribal/spark-connected-components-finder)
+  - This project implements the Connected Components Finder (CCF) algorithm using Apache Spark
 
 ## 🛠 Technical Skills
 
