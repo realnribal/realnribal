@@ -1,81 +1,127 @@
-## Hi there 👋, I'm Henri 
-* Welcome to my GitHub space! I'm a passionate technologist with a knack for turning data into insights and ideas into reality.
-* 🔍 I'm constantly exploring new technologies and methodologies, driven by curiosity and a desire to push the boundaries of what's possible.
-* 🤝 I believe in the power of collaboration and open-source contribution to drive progress in our field.
+## Hi there 👋, I'm Henri
 
-I'm always excited to connect with fellow tech enthusiasts, so feel free to reach out for discussions on data science, innovative projects, or the latest tech trends!
-Let's create something amazing together! 
-<!--
-**realnribal/realnribal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub space! I'm a passionate technologist specializing in **data science**, **machine learning**, and **big data engineering**. I transform complex data into actionable insights and build scalable solutions to solve real-world problems.
 
-Here are some ideas to get you started:
+🔍 **Exploring** cutting-edge technologies and methodologies  
+🤝 **Collaborating** on open-source projects and innovative solutions  
+💡 **Creating** impact through data-driven decision making
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Feel free to reach out for discussions on data science, ML/AI projects, or the latest tech trends. Let's build something amazing together!
+
+---
+
+## 📂 Portfolio
+
+### 🤖 Machine Learning & AI
+
+**[Flight Delay Prediction System](https://github.com/MalikChettihIA/Emiasd-FlightProject)**  
+End-to-end ML pipeline for predicting flight delays using weather data
+- **Technologies**: Apache Spark, Scala, MLflow, Docker, GCP Dataproc
+- **ML Techniques**: PCA feature engineering, Random Forest, k-fold cross-validation
+- **Results**: 85.8% accuracy with complete CI/CD deployment pipeline
+
+**[SVM Optimization Learning](https://github.com/realnribal/optimization-learning)**  
+Advanced implementation of Support Vector Machine optimization techniques
+- **Focus**: Linear and non-linear separability scenarios
+- **Methods**: Hinge loss, ramp loss, hard margin optimization
+- **Output**: Comparative analysis with performance visualizations on 2D synthetic datasets
+
+**[Honey Production Analysis & Forecasting](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production)**  
+Time series analysis and predictive modeling of US honey production (1998-2012)
+- **Objective**: Forecast honey production trends for upcoming years
+- **Repository**: Part of [AI Projects Collection](https://github.com/realnribal/AI-Projects)
+
+**[PageRank on Apache Spark](https://github.com/realnribal/pagerank-spark)**  
+Scalable PageRank algorithm implementation with multi-scale Wikipedia graph analysis
+- **Technologies**: Scala, Apache Spark, GCP Dataproc, GitHub Actions
+- **Scale**: From wiki-chti (5K pages, 40K edges) to wiki-fr (400K pages, 5M edges)
+- **Optimization**: Performance comparison between baseline and partition-optimized implementations
+- **Analysis**: Interactive Jupyter notebooks for comparative performance metrics
+
+**[LLM-GreenTune: Eco-Efficient Language Models](https://github.com/realnribal/LLM-GreenTune)**  
+Sustainable LLM optimization through distillation, fine-tuning, and compression techniques
+- **Distillation**: Llama-3.2-3B → 1B student model (temperature-scaled softmax T=2.0, α=0.85)
+- **Fine-tuning**: LoRA (r=16, α=16) + QLoRA with 4-bit NF4 quantization on financial Q&A (7K samples)
+- **Compression**: Magnitude pruning + GPTQ quantization achieving 67% memory reduction
+- **RAG System**: SEC 10-K API, FAISS vector DB, HuggingFace embeddings for financial documents
+- **Performance**: 85%+ accuracy retention with ROUGE, BLEU, and perplexity metrics
+- **Deployment**: Production-ready Gradio chatbot for real-time financial Q&A
+
+**[H&M Fashion Recommendation Pipeline](https://github.com/realnribal/hm-fashion-recommendation-pipeline)**  
+End-to-end recommendation system for personalized fashion suggestions
+- **Dataset**: 31M+ transactions, 1.4M customers, 105K articles
+- **Algorithm**: LightFM with collaborative filtering (WARP/BPR loss functions)
+- **Approach**: Hybrid model combining collaborative and content-based features
+- **Optimization**: Grid search hyperparameter tuning
+- **Deployment**: Streamlit interface for real-time predictions
+
+### 📊 Data Analysis & Visualization
+
+**[Electric Vehicle Charging Stations Analysis](https://github.com/realnribal/electric-vehicle-station-analysis)**  
+Comprehensive analysis of EV charging infrastructure
+- **Technologies**: Python, pandas, data visualization libraries
+- **Analysis**: Station distribution, usage patterns, and infrastructure insights
+
+### ☁️ Big Data Engineering
+
+**[Common Crawl Domain Graph Analysis](https://github.com/realnribal/Analyze-Common-Crawl-Data)**  
+Large-scale analysis of web domain relationships from Common Crawl dataset
+- **Technologies**: Apache Spark, Hadoop
+- **Scale**: Processing petabytes of web crawl data
+- **Focus**: Domain graph structure and connectivity patterns
+
+**[Spark Connected Components Finder](https://github.com/realnribal/spark-connected-components-finder)**  
+Distributed graph algorithm implementation for finding connected components
+- **Algorithm**: Connected Components Finder (CCF)
+- **Framework**: Apache Spark for distributed processing
+- **Application**: Large-scale graph analysis and network clustering
 
 
-# Portfolio Contents
-
-## 📚 Featured Projects
-
-#### 🤖 [AI Projects](https://github.com/realnribal/AI-Projects)
-- [Analysis of Honey Production in the USA (1998-2012)](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production)  
-  - Predict honey production in the USA for upcoming years.
-
-#### 🤖 Data Analysis
-- [Electric Vehicle Station Analysis](https://github.com/realnribal/electric-vehicle-station-analysis)
-  - This project analyzes electric vehicle charging stations using Python and pandas..
-
-#### 🤖 [Big Data Projects](https://github.com/realnribal/AI-Projects)
-- [Common Crawl Domain Analysis](https://github.com/realnribal/Analyze-Common-Crawl-Data) 
-  - This project focuses on analyzing the domain graph dataset from Common Crawl
-- [Spark Connected Components Finder](https://github.com/realnribal/spark-connected-components-finder)
-  - This project implements the Connected Components Finder (CCF) algorithm using Apache Spark
+---
 
 ## 🛠 Technical Skills
 
-### 🤖 AI & Machine Learning
-- **Frameworks**: Scikit-learn 
+### 💻 Programming & Scripting
+**Languages**: Python • Java • Go • Bash • PowerShell • SQL  
+**Data Formats**: YAML • JSON
 
-### 📊 Big Data
-- **Processing**: Apache Spark, Hadoop
-- **Cloud Platforms**: Google Cloud Platform (Dataproc), Databricks
+### 🤖 Machine Learning & AI
+**Frameworks**: Scikit-learn • MLflow • LightFM • HuggingFace Transformers  
+**Deep Learning**: LoRA • QLoRA • Model Distillation • Quantization (GPTQ, NF4)  
+**Techniques**: SVM • Random Forest • PCA • Cross-validation • Time Series Forecasting • Recommendation Systems  
+**RAG & Vector DBs**: FAISS • LangChain • Semantic Search
 
-### 🐧 Linux
-- **Distributions**: Ubuntu, Gentoo
-- **Shell Scripting**: Bash, Python scripting
-- **System Administration**: SystemD, Network Configuration
-- **Virtualization**: VirtualBox
+### 📊 Big Data & Analytics
+**Processing**: Apache Spark • Hadoop • Scala  
+**Platforms**: Google Cloud Platform (Dataproc) • Databricks  
+**Algorithms**: PageRank • Connected Components • Graph Analysis  
+**Tools**: Pandas • Jupyter • Data Visualization
 
-### 🔒 Cybersecurity
-- **Network Security**: Wireshark
+### ⚙️ DevOps & Infrastructure
+**Containerization**: Docker • Podman  
+**CI/CD**: Jenkins • GitHub Actions  
+**Automation**: Ansible  
+**Cloud**: Google Cloud Platform (Dataproc, Compute Engine)  
+**Deployment**: Gradio • Streamlit
 
-### 🌐 Networks
-- **Protocols**: TCP/IP, DNS, DHCP, HTTP/S
-- **Network Automation**: Ansible
+### 🐧 System Administration
+**OS**: Ubuntu • Gentoo  
+**Tools**: SystemD • Bash scripting • Network Configuration  
+**Virtualization**: VirtualBox
 
-### ⚙️ DevOps
-- **Containerization**: Docker, Podman
-- **CI/CD**: Jenkins , 
+### 🌐 Networking & Security
+**Protocols**: TCP/IP • DNS • DHCP • HTTP/S  
+**Security**: Wireshark  
+**Automation**: Ansible
 
-#### 💻 Programming Languages
-- **Primary**: Python, Java, Go
-- **Scripting**: Bash, PowerShell
-- **Database**: SQL
-- **Infrastructure**: YAML, JSON
-
-#### 🛠 Development Tools
-- **Version Control**: Git, GitHub, GitLab
-- **IDE/Editors**: VSCode, PyCharm, Vim
-- **Documentation**: Markdown, Sphinx
+### 🔧 Development Tools
+**Version Control**: Git • GitHub • GitLab  
+**IDEs**: VSCode • PyCharm • Vim  
+**Documentation**: Markdown • Sphinx
 
 
-### 📈 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=realnribal&show_icons=true&theme=radical&hide=stars,prs,issues,contribs)
+---
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=realnribal&show_icons=true&theme=radical&hide_border=true)
