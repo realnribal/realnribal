@@ -14,6 +14,13 @@ Feel free to reach out for discussions on data science, ML/AI projects, or the l
 
 ### 🤖 Machine Learning & AI
 
+**[ANSSI Compliance Assistant](https://github.com/realnribal/anssi-compliance-assistant)**  
+Multi-agent AI pipeline that answers French cybersecurity compliance questions and generates validated bash scripts — built twice with different stacks to compare enterprise vs open-source approaches
+- **Stack 1**: Azure AI Foundry (3 agents, gpt-4.1-mini, native RAG on 60+ ANSSI guides)
+- **Stack 2**: LangChain + Mistral 7B + FAISS (100% open source, zero cloud cost)
+- **Live demo**: [huggingface.co/spaces/nribal/anssi-compliance-bot](https://huggingface.co/spaces/nribal/anssi-compliance-bot)
+
+
 **[Flight Delay Prediction System](https://github.com/MalikChettihIA/Emiasd-FlightProject)**  
 End-to-end ML pipeline for predicting flight delays using weather data
 - **Technologies**: Apache Spark, Scala, MLflow, Docker, GCP Dataproc
