@@ -1,134 +1,59 @@
-## Hi there 👋, I'm Henri
+# Henri Cécé Balamou
 
-Welcome to my GitHub space! I'm a passionate technologist specializing in **data science**, **machine learning**, and **big data engineering**. I transform complex data into actionable insights and build scalable solutions to solve real-world problems.
+Senior **AI & QA Engineer** — 10+ years industrial IVVQ (Thales, PSA, Safran, Sopra Steria) + Executive Master AI & Data Science (Université Paris Dauphine-PSL). I industrialize GenAI: agents, RAG, LLM fine-tuning/compression, and evaluation — with the same rigor used on safety-critical systems.
 
-🔍 **Exploring** cutting-edge technologies and methodologies  
-🤝 **Collaborating** on open-source projects and innovative solutions  
-💡 **Creating** impact through data-driven decision making
-
-Feel free to reach out for discussions on data science, ML/AI projects, or the latest tech trends. Let's build something amazing together!
+📍 Paris, France · open to **Saudi Arabia / Qatar / UAE** relocation · freelance AI (France)  
+✉️ henri.balamou@neria-engineering.com
 
 ---
 
-## 📂 Portfolio
+## Featured projects
 
-### 🤖 Machine Learning & AI
+### Generative AI & agents
 
-**[ANSSI Compliance Assistant](https://github.com/realnribal/anssi-compliance-assistant)**  
-Multi-agent AI pipeline that answers French cybersecurity compliance questions and generates validated bash scripts — built twice with different stacks to compare enterprise vs open-source approaches
-- **Stack 1**: Azure AI Foundry (3 agents, gpt-4.1-mini, native RAG on 60+ ANSSI guides)
-- **Stack 2**: LangChain + Mistral 7B + FAISS (100% open source, zero cloud cost)
-- **Live demo**: [huggingface.co/spaces/nribal/anssi-compliance-bot](https://huggingface.co/spaces/nribal/anssi-compliance-bot)
+**[LLM-GreenTune](https://github.com/realnribal/LLM-GreenTune)** — Eco-efficient LLMs  
+Distillation (Llama-3.2-3B → 1B), LoRA/QLoRA fine-tuning on financial Q&A, pruning + GPTQ (**~67% memory cut**, 85%+ quality retained), plus RAG (FAISS + Hugging Face) and a Gradio chatbot.
 
+**ANSSI Compliance Assistant** — Multi-agent compliance + script generation *(repo private / not public yet)*  
+Dual stack: Azure AI Foundry (3 agents, GPT-4.1-mini, RAG on 60+ ANSSI guides) vs LangChain + Mistral 7B + FAISS.  
+Live demo: [huggingface.co/spaces/nribal/anssi-compliance-bot](https://huggingface.co/spaces/nribal/anssi-compliance-bot)
 
-**[Flight Delay Prediction System](https://github.com/MalikChettihIA/Emiasd-FlightProject)**  
-End-to-end ML pipeline for predicting flight delays using weather data
-- **Technologies**: Apache Spark, Scala, MLflow, Docker, GCP Dataproc
-- **ML Techniques**: PCA feature engineering, Random Forest, k-fold cross-validation
-- **Results**: 85.8% accuracy with complete CI/CD deployment pipeline
+**[agent-eval-tracker](https://github.com/realnribal/agent-eval-tracker)** · **[safe-code-agent](https://github.com/realnribal/safe-code-agent)** — Agent evaluation & safer coding agents (WIP / recent).
 
-**[SVM Optimization Learning](https://github.com/realnribal/optimization-learning)**  
-Advanced implementation of Support Vector Machine optimization techniques
-- **Focus**: Linear and non-linear separability scenarios
-- **Methods**: Hinge loss, ramp loss, hard margin optimization
-- **Output**: Comparative analysis with performance visualizations on 2D synthetic datasets
+### ML / data engineering
 
-**[Honey Production Analysis & Forecasting](https://github.com/realnribal/AI-Projects/tree/master/Honey_Production)**  
-Time series analysis and predictive modeling of US honey production (1998-2012)
-- **Objective**: Forecast honey production trends for upcoming years
-- **Repository**: Part of [AI Projects Collection](https://github.com/realnribal/AI-Projects)
+**[Flight Delay Prediction](https://github.com/realnribal/Emiasd-FlightProject)** — Spark ML end-to-end (weather × flights), **85.8% accuracy**, MLflow, Docker, GCP Dataproc, CI/CD.  
+*(Also contributed on [MalikChettihIA/Emiasd-FlightProject](https://github.com/MalikChettihIA/Emiasd-FlightProject).)*
 
-**[PageRank on Apache Spark](https://github.com/realnribal/pagerank-spark)**  
-Scalable PageRank algorithm implementation with multi-scale Wikipedia graph analysis
-- **Technologies**: Scala, Apache Spark, GCP Dataproc, GitHub Actions
-- **Scale**: From wiki-chti (5K pages, 40K edges) to wiki-fr (400K pages, 5M edges)
-- **Optimization**: Performance comparison between baseline and partition-optimized implementations
-- **Analysis**: Interactive Jupyter notebooks for comparative performance metrics
+**[PageRank on Spark](https://github.com/realnribal/pagerank-spark)** — Wikipedia graphs up to ~400K pages / 5M edges; partition tuning + notebooks.
 
-**[LLM-GreenTune: Eco-Efficient Language Models](https://github.com/realnribal/LLM-GreenTune)**  
-Sustainable LLM optimization through distillation, fine-tuning, and compression techniques
-- **Distillation**: Llama-3.2-3B → 1B student model (temperature-scaled softmax T=2.0, α=0.85)
-- **Fine-tuning**: LoRA (r=16, α=16) + QLoRA with 4-bit NF4 quantization on financial Q&A (7K samples)
-- **Compression**: Magnitude pruning + GPTQ quantization achieving 67% memory reduction
-- **RAG System**: SEC 10-K API, FAISS vector DB, HuggingFace embeddings for financial documents
-- **Performance**: 85%+ accuracy retention with ROUGE, BLEU, and perplexity metrics
-- **Deployment**: Production-ready Gradio chatbot for real-time financial Q&A
+**[H&M Fashion Recs](https://github.com/realnribal/hm-fashion-recommendation-pipeline)** — LightFM hybrid on 31M+ transactions; Streamlit demo.
 
-**[H&M Fashion Recommendation Pipeline](https://github.com/realnribal/hm-fashion-recommendation-pipeline)**  
-End-to-end recommendation system for personalized fashion suggestions
-- **Dataset**: 31M+ transactions, 1.4M customers, 105K articles
-- **Algorithm**: LightFM with collaborative filtering (WARP/BPR loss functions)
-- **Approach**: Hybrid model combining collaborative and content-based features
-- **Optimization**: Grid search hyperparameter tuning
-- **Deployment**: Streamlit interface for real-time predictions
-
-### 📊 Data Analysis & Visualization
-
-**[Electric Vehicle Charging Stations Analysis](https://github.com/realnribal/electric-vehicle-station-analysis)**  
-Comprehensive analysis of EV charging infrastructure
-- **Technologies**: Python, pandas, data visualization libraries
-- **Analysis**: Station distribution, usage patterns, and infrastructure insights
-
-### ☁️ Big Data Engineering
-
-**[Common Crawl Domain Graph Analysis](https://github.com/realnribal/Analyze-Common-Crawl-Data)**  
-Large-scale analysis of web domain relationships from Common Crawl dataset
-- **Technologies**: Apache Spark, Hadoop
-- **Scale**: Processing petabytes of web crawl data
-- **Focus**: Domain graph structure and connectivity patterns
-
-**[Spark Connected Components Finder](https://github.com/realnribal/spark-connected-components-finder)**  
-Distributed graph algorithm implementation for finding connected components
-- **Algorithm**: Connected Components Finder (CCF)
-- **Framework**: Apache Spark for distributed processing
-- **Application**: Large-scale graph analysis and network clustering
-
+**[kd-llm](https://github.com/realnribal/kd-llm)** · **[optimization-learning](https://github.com/realnribal/optimization-learning)** — Distillation & SVM optimization study repos.
 
 ---
 
-## 🛠 Technical Skills
+## Stack
 
-### 💻 Programming & Scripting
-**Languages**: Python • Java • Go • Bash • PowerShell • SQL  
-**Data Formats**: YAML • JSON
+`Python` · `LangChain` · `Hugging Face` · `Azure AI` · `Mistral` · `LoRA/QLoRA` · `FAISS` · `Spark` · `MLflow` · `Docker` · `Ansible` · `Bash` · `GCP`
 
-### 🤖 Machine Learning & AI
-**Frameworks**: Scikit-learn • MLflow • LightFM • HuggingFace Transformers  
-**Deep Learning**: LoRA • QLoRA • Model Distillation • Quantization (GPTQ, NF4)  
-**Techniques**: SVM • Random Forest • PCA • Cross-validation • Time Series Forecasting • Recommendation Systems  
-**RAG & Vector DBs**: FAISS • LangChain • Semantic Search
-
-### 📊 Big Data & Analytics
-**Processing**: Apache Spark • Hadoop • Scala  
-**Platforms**: Google Cloud Platform (Dataproc) • Databricks  
-**Algorithms**: PageRank • Connected Components • Graph Analysis  
-**Tools**: Pandas • Jupyter • Data Visualization
-
-### ⚙️ DevOps & Infrastructure
-**Containerization**: Docker • Podman  
-**CI/CD**: Jenkins • GitHub Actions  
-**Automation**: Ansible  
-**Cloud**: Google Cloud Platform (Dataproc, Compute Engine)  
-**Deployment**: Gradio • Streamlit
-
-### 🐧 System Administration
-**OS**: Ubuntu • Gentoo  
-**Tools**: SystemD • Bash scripting • Network Configuration  
-**Virtualization**: VirtualBox
-
-### 🌐 Networking & Security
-**Protocols**: TCP/IP • DNS • DHCP • HTTP/S  
-**Security**: Wireshark  
-**Automation**: Ansible
-
-### 🔧 Development Tools
-**Version Control**: Git • GitHub • GitLab  
-**IDEs**: VSCode • PyCharm • Vim  
-**Documentation**: Markdown • Sphinx
-
+Certs in progress: **Microsoft AI-102**, **PMP**, **LangChain Certified Agent Engineer**.
 
 ---
 
-## 📈 GitHub Stats
+## Background
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=realnribal&show_icons=true&theme=radical&hide_border=true)
+- **Sopra Steria** — Cybersecurity QA & pre-sales (hardened OS, Ansible, containers, PXE/PKI) — 2024–present  
+- **Thales SIX GTS** — IVVQ / Validation team lead (security software) — 2020–2024  
+- **PSA Peugeot-Citroën** — Development & integration / middleware QA — 2015–2018  
+- **Dauphine-PSL** — Executive Master AI & Data Science — 2024–2025/26  
+
+---
+
+## Contact
+
+- Email: henri.balamou@neria-engineering.com  
+- GitHub: [@realnribal](https://github.com/realnribal)  
+- CV (EN): ask for latest Canva export  
+
+*Open to senior AI engineer / GenAI industrialization roles and French freelance AI missions.*
