@@ -7,29 +7,41 @@ Senior **AI & QA Engineer** — 10+ years industrial IVVQ (Thales, PSA, Safran, 
 
 ---
 
-## Featured projects
+## Featured public projects
 
 ### Generative AI & agents
 
 **[LLM-GreenTune](https://github.com/realnribal/LLM-GreenTune)** — Eco-efficient LLMs  
 Distillation (Llama-3.2-3B → 1B), LoRA/QLoRA fine-tuning on financial Q&A, pruning + GPTQ (**~67% memory cut**, 85%+ quality retained), plus RAG (FAISS + Hugging Face) and a Gradio chatbot.
 
-**ANSSI Compliance Assistant** — Multi-agent compliance + script generation *(repo private / not public yet)*  
-Dual stack: Azure AI Foundry (3 agents, GPT-4.1-mini, RAG on 60+ ANSSI guides) vs LangChain + Mistral 7B + FAISS.  
-Live demo: [huggingface.co/spaces/nribal/anssi-compliance-bot](https://huggingface.co/spaces/nribal/anssi-compliance-bot)
-
 **[agent-eval-tracker](https://github.com/realnribal/agent-eval-tracker)** · **[safe-code-agent](https://github.com/realnribal/safe-code-agent)** — Agent evaluation & safer coding agents (WIP / recent).
 
 ### ML / data engineering
 
-**[Flight Delay Prediction](https://github.com/realnribal/Emiasd-FlightProject)** — Spark ML end-to-end (weather × flights), **85.8% accuracy**, MLflow, Docker, GCP Dataproc, CI/CD.  
-*(Also contributed on [MalikChettihIA/Emiasd-FlightProject](https://github.com/MalikChettihIA/Emiasd-FlightProject).)*
+**[Flight Delay Prediction](https://github.com/realnribal/Emiasd-FlightProject)** — Spark ML end-to-end (weather × flights), **85.8% accuracy**, MLflow, Docker, GCP Dataproc, CI/CD.
 
 **[PageRank on Spark](https://github.com/realnribal/pagerank-spark)** — Wikipedia graphs up to ~400K pages / 5M edges; partition tuning + notebooks.
 
 **[H&M Fashion Recs](https://github.com/realnribal/hm-fashion-recommendation-pipeline)** — LightFM hybrid on 31M+ transactions; Streamlit demo.
 
 **[kd-llm](https://github.com/realnribal/kd-llm)** · **[optimization-learning](https://github.com/realnribal/optimization-learning)** — Distillation & SVM optimization study repos.
+
+---
+
+## Selected private work *(code available on request / under NDA)*
+
+These repos stay private; descriptions are public so recruiters see the scope.
+
+**ANSSI Compliance Assistant** — Multi-agent pipeline that answers French cybersecurity compliance questions and generates validated bash scripts. Built twice to compare stacks: Azure AI Foundry (3 agents, GPT-4.1-mini, native RAG on 60+ ANSSI guides) vs LangChain + Mistral 7B + FAISS (fully open-source).  
+Live demo: [huggingface.co/spaces/nribal/anssi-compliance-bot](https://huggingface.co/spaces/nribal/anssi-compliance-bot)
+
+**ANSSI Compliance Deep Agent** — Deeper agentic variant of the compliance assistant (tool use, longer workflows).
+
+**10K Analyst Agent** — Agent for financial document analysis (SEC-style 10-K workflows).
+
+**AI Agents with OpenAI & LangChain** — Course / lab work on agent patterns with OpenAI + LangChain.
+
+**Flight Delay Prediction (Scala)** — Private twin of the Spark/Scala flight-delay pipeline.
 
 ---
 
